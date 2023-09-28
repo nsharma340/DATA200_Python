@@ -11,7 +11,7 @@ import altair as alt
 
 data = pd.read_csv('retail_sales_dataset.csv')
 df = pd.DataFrame(data)
-st.title("product category where most sales happened")
+st.title("Product category where most sales happened")
 attribute_counts = data['Product Category'].value_counts().reset_index()
 attribute_counts.columns = ['Product Category','Count']
 
