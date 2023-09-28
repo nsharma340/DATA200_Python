@@ -32,6 +32,3 @@ d = alt.Chart(attribute_age).mark_bar().encode(
     tooltip = ['Age', 'Count']
 )
 st.altair_chart(d, use_container_width = True)
-
-
- 
